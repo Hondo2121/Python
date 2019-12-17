@@ -11,7 +11,7 @@ print("*                                               *")
 print("*************************************************")
 print("*                                               *")
 while(inputclasses.count("stop")  == 0):
-	temp = input("Enter the next class, Stop to end: ")
+	temp = input("Enter the next class, stop to end: ")
 	inputclasses.append(temp)
 	if(inputclasses.count("stop")  == 0):
 		temp = int(input("Enter the room number: "))
